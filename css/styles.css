@@ -42,7 +42,7 @@ nav {
 .nav-items {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 65%;
 }
 
 .nav-items .items {
@@ -61,7 +61,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 16px 0;
-    width: 40%;
+    width: 43%;
 }
 
 .nav-signed a {
