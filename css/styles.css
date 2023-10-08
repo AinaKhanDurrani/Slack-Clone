@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;600;700;900&family=Lora:ital@1&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@1,400;1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #541554;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 14px;
+}
+
+.nav-logo img {
+    width: 100px;
+    margin: 0 25px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-items .items {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.nav-items li {
+    padding: 4px 12px;
+
+}
+
+.nav-signed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+    width: 40%;
+}
+
+.nav-signed a {
+    margin-right: 15px;
+}
+
+
+.sales-talk-btn {
+    padding: 12px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 450;
+
+}
+
+.free-btn {
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #541554;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-weight: 450;
+
+}
+
+.sign-in {
+    color: #fff;
+}
+
+main {
+    padding-top: 25px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 50px;
+    background-color: #541554;
+    padding-bottom: 75px;
+}
+
+.hero-section-content {
+    max-width: 52%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5px;
+}
+
+.hero-section-content h1 {
+    font-size: 3.5rem;
+    margin-top: 35px;
+    line-height: 1.2;
+}
+
+.hero-section-content .highlight {
+    color: #ECB22E;
+    margin-top: 0;
+}
+
+.hero-section-content p {
+    font-size: 18px;
+    margin: 6px 0 32px 0;
+    line-height: 1.5;
+    font-weight: 450;
+    padding-top: 5px;
+
+}
+
+.button {
+    display: flex;
+    margin-bottom: 4px;
+    /* justify-content: center; */
+}
+
+.hero-section-video {
+    max-width: 48%;
+    position: relative;
+    right: -120px;
+}
+
+.email-signup {
+    height: 56px;
+    width: 230px;
+    color: #541554;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 9px;
+}
+
+.google-signup {
+    height: 56px;
+    width: 230px;
+    border-radius: 2px;
+    background-color: #4285F4;
+    border: 1px solid #4285F4;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.google-signup img {
+    height: 45px;
+    background-color: #fff;
+    margin: 0 10px 0 2px;
+
+}
+
+.feature-companies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4EDE4;
+    align-items: center;
+    color: #000;
+}
+
+.feature-companies>p {
+    font-weight: bold;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.feature-companies .feature-companies-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 84px;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    color: #000;
+    background-color: #F4EDE4;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+
+.banner-video {
+    width: 50%;
+}
+
+.banner-video1 > video {
+    position: relative;
+    max-height: 360px;
+    left: -55px;
+    width: 100%;
+}
+
+.banner-text {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner-text h1 {
+    font-size: 3.125rem;
+    margin-top: 40px;
+    letter-spacing: -0.2;
+    line-height: 1.3;
+    font-weight: 600;
+    width: 95%;
+    word-spacing: .02em;
+    margin-bottom: 8px;
+}
+
+.banner-text>p {
+    line-height: 1.5;
+    font-weight: 420;
+    word-spacing: .4em;
+    margin: 12px 0;
+    width: 95%;
+}
+
+.banner-text>a {
+    width: 100%;
+    align-items: start;
+    color: #1264A3;
+    font-weight: 420;
+    width: 95%;
+}
+
+.banner-video2 > video {
+    position: relative;
+    max-height: 360px;
+    right: -55px;
+    width: 100%;
+}
+
+.banner1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+}
+.banner1-heading{
+    margin: 20px 0 30px 0;
+    font-size: 1.3rem;
+}
+
+.free-btn-banner1{
+    padding: 12px 20px;
+    border: 1px solid white;
+    background-color:#541554 ;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 450;
+    height: 56px;
+    width: 230px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+.sales-talk-btn-banner1{
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #541554;
+    border-radius: 4px;
+    border: 1px solid white;
+    font-weight: 450;
+    height: 56px;
+    width: 230px;
+    border-radius: 2px;
+    margin-left: 8px;
+
+}
+
+.footer {
+    background-color:#F4EDE4 ;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 30px;
+}
+
+.footer-list{
+    background-color:#F4EDE4 ;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding:  50px 0;
+}
+.footer-list .logo-pic > img{
+    height: 54px;
+}
+.all-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 88%;
+}
+.list-heading{
+    font-size: 14px;
+    font-weight: 450;
+
+}
+
+.list-items {
+    font-size: 14px;
+    font-weight: 300;
+    color: #292525;
+}
+
+.list-items > li{
+    padding: 20px 0 0 0 ;
+}
