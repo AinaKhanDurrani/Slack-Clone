@@ -217,6 +217,7 @@ main {
     max-height: 360px;
     left: -55px;
     width: 100%;
+    border:none;
 }
 
 .banner-text {
